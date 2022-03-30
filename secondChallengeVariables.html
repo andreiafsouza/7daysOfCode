@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="secondChallengeVariables.css" media="screen">
+    <script src="secondChallengeVariables.js"></script>
+    <title>Variable Challenge</title>
+</head>
+<body>
+
+    <div class="container"> 
+
+        <div>
+            <h1 id="titulo">7 Days Of Code</h1><br>
+            <p id="subtitulo">Responda as perguntas e veja o resultado</p>
+            <br><br>
+        </div>
+            <div class="campo">
+            <label for="nome"><strong>Qual o seu nome?</strong></label><br>
+            <input type="text" name="nome" id="nome">
+        </div><br>
+    
+        <div class="campo">
+            <label for="nome"><strong>Quantos anos você tem?</strong></label><br>
+            <input type="text" name="idade" id="idade">
+        </div><br>
+    
+        <div class="campo">
+            <label for="nome"><strong>Qual linguagem de programação você está estudando?</strong></label><br>
+            <input type="text" name="linguagem" id="linguagem">
+        </div><br>
+
+        <div class="botao">
+            <button type="submit" id="primeiroOK" onclick="gerarFrase()"><strong>OK</strong></button>
+        </div>
+
+        <h2 id="mensagem"></h2><br>
+
+        <div class="botao">
+            <button type="submit" id="segundoOK" onclick="segundaFrase()" hidden><strong>OK</strong></button>
+        </div>
+
+        <h2 id="alternativa"></h2>
+        
+    </div>
